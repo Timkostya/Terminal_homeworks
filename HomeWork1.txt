@@ -1,0 +1,57 @@
+Первая часть первого  ДЗ  
+Linux terminal (GitBash) commands
+
+
+1.посмотреть где я 	                             - 	        pwd
+2.создать папку 	                             -  	mkdir home_work_git
+3.3айти в папку	 	                             -	        cd home_work_git
+4.создать 3 папки 	                             - 	        mkdir bim bam bom
+5.зайти в любую папку 	                             -  	cd bim
+6.создать 5 файлов(3.txt,2.json)                     -   	touch file1.txt file2.txt file3.txt file4.json file5.json
+7.создать 3 папки 		                     - 	        mkdir la le lo
+8.вывести список содержимого папки                   - 	        ls -la
+9.открыть любой txt файл	                     - 	        cat file1.txt
+10.написать туда чтото 	 	                     - 	        cat >file1.txt	Hello my world!!!
+11.сохранить и выйти		                      - 	Ctrl + C
+12.выйти из папки на уровень выше                     - 	cd ..
+13.переместить любые 2 файла, которые вы создали,в      	open /
+любую другую папку.				     -          mv bim/file1.txt bom/file1.txt
+							        mv bim/file2.txt bom/file2.txt
+14.скопировать любые 2 файла 			     - 	        cp bom/file1.txt bam/file1.txt
+							        cp bom/file4.json bam/file4.json
+15.найти файл по имени				     -   	find -name file5.json
+16. просмотреть содержимое в реальном времени	     -		tail "text"file1.txt
+17. вывести несколько первых строк из текстового     -     	head -2 file1.txt
+ файла
+18. вывести несколько последних строк из  	     -		tail -2 file.txt
+текстового файла
+19. просмотреть содержимое длинного файла 	     - 		less file1.txt
+(команда less) изучите как она работает.
+20. вывести дату и время			     -  	date
+
+
+
+
+		задание со *
+
+
+{
+  "Intro": "Hello!! This is your the first response from server", 
+  "Tasks": {
+    "Task_1": "Send the next URL in terminal: http://162.55.220.72:5005/get_method?name=(set_your_String)&age=(set_your_number)", 
+    "result": [
+      "Your_String", 
+      "Your_number"
+    ]
+  }
+}
+
+
+		ответ
+
+
+[
+  "(man)", 
+  "(41)"
+]
+ 		
