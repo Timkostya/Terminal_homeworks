@@ -21,11 +21,20 @@ c любыми строками						-cat > tf_3.txt
 								in so much spase
 	
  9. Через cat добавить в текстовый файл tf_3.txt 
-строку “the second 2”						-cat >> tf_3.txt the second 2
- 10. Через cat добавить в текстовый файл tf_3.txt строку “the sec 2”
- 11. Через cat добавить в текстовый файл tf_2.txt строку “the sec 3”
- 12. Через cat добавить в текстовый файл tf_3.txt строку “the SeCoNd 2”
- 13. Через cat добавить в текстовый файл tf_2.txt строку “the seConD 2”
+строку “the second 2”						-cat >> tf_3.txt 
+									the second 2
+ 10. Через cat добавить в текстовый файл tf_3.txt 
+строку “the sec 2”						-cat >> tf_3.txt
+									the sec 2the sec 
+ 11. Через cat добавить в текстовый файл tf_2.txt 
+строку “the sec 3”						-
+									the sec 2
+ 12. Через cat добавить в текстовый файл tf_3.txt 
+строку “the SeCoNd 2”						- cat >> tf_3.txt
+									the SeCoNd 2
+ 13. Через cat добавить в текстовый файл tf_2.txt
+ строку “the seConD 2”						- cat >> tf_3.txt
+									the seConD 2
  14. Сделать текстовый файл tf_4.txt в котором будет 15 строк.
  15. Сделать текстовый файл tF_5.txt в котором будет 13 строк.
  16. Вывести список всех файлов в папке.
